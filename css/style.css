@@ -114,7 +114,7 @@ main {
 
 .hamburger span {
     display: block;
-    width: 100%;
+    width: 30px;
     height: 4px;
     background-color: #fff;
     border-radius: 2px;
@@ -638,7 +638,7 @@ img.image-active {
   
     .hamburger span {
       display: block;
-      width: 100%;
+      width: 30px;
       height: 3px;
       background-color: #fff;
       border-radius: 2px;
