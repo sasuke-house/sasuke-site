@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>サスケのおうち-アルバム集</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images/favicon.png" type="image/png">
+</head>
+
+<body class="album-page">
+  <header>
+    <div class="logo">
+      <a href="index.html">
+        <img src="images/logo.png" alt="サスケのおうちロゴ">
+      </a>
+    </div>
+    <button class="hamburger" aria-label="メニューを開く">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="nav-menu">
+      <ul>
+        <li><a href="index.html">ホーム</a></li>
+        <li><a href="profile.html">プロフィール</a></li>
+        <li><a href="album.html">アルバム集</a></li>
+        <li><a href="friends.html">近所のお友達</a></li>
+        <li><a href="growth.html">成長記録</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="sasuke-navi">
+      <img src="images/home/navigator.png" alt="ナビゲーターサスケ" class="navi-img" />
+      <div class="speech">
+        <p>ここではオイラが家族のみんなに撮ってもらった写真のアルバムが見られるワン！</p>
+      </div>
+    </section>
+
+    <section class="album-shelf">
+      <h2>サスケのアルバム集</h2>
+      <div class="album-grid">
+        <div class="album-cover" data-album="smile">
+          <img src="images/albums/cover-smile.jpg" alt="えがおアルバム">
+          <p>えがお</p>
+        </div>
+        <div class="album-cover" data-album="stroll">
+          <img src="images/albums/cover-stroll.jpg" alt="さんぽアルバム">
+          <p>さんぽ</p>
+        </div>
+        <div class="album-cover" data-album="funny">
+          <img src="images/albums/cover-funny.jpg" alt="おもしろアルバム">
+          <p>おもしろ</p>
+        </div>
+        <div class="album-cover" data-album="house">
+          <img src="images/albums/cover-house.jpg" alt="おうちアルバム">
+          <p>おうち</p>
+        </div>
+      </div>
+    </section>
+    
+  <div id="modal" class="modal">
+    <span class="close">&times;</span>
+    <div class="modal-image-wrapper">
+      <img class="modal-content" id="modal-img" alt="">
+    </div>
+    <button id="prevBtn" class="modal-btn">←</button>
+    <button id="nextBtn" class="modal-btn">→</button>
+  </div>
+
+  </main>
+
+  <footer class="footer">
+    <div>
+      <p>サイトマップ</p>
+      <ul>
+        <li><a href="index.html">ホーム</a></li>
+        <li><a href="profile.html">プロフィール</a></li>
+        <li><a href="album.html">アルバム集</a></li>
+        <li><a href="friends.html">近所のお友達</a></li>
+        <li><a href="growth.html">成長記録</a></li>
+      </ul>
+    </div>
+    <div >
+      <a class="logo" href="index.html"><img src="images/logo-gray.png" alt="ロゴ"></a>
+      <p>〒888-XXXX</p>
+      <p>〇〇県XX市11−1−1</p>
+      <p>0000-00-XXXX</p>
+      <p class="copy">&copy; SASUKE</p>
+    </div>
+  </footer>
+
+  <button id="scrollTopBtn" class="scroll-top">↑</button>
+  <script src="js/script.js"></script>
+</body>
+</html>

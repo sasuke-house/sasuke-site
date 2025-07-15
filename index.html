@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>サスケのおうち</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images/favicon.png" type="image/png">
+</head>
+
+<body class="top-page">
+  <div id="loading-screen">
+    <img src="images/home/loading.gif" alt="ローディング中">
+  </div>
+
+  <header>
+    <div class="logo">
+      <a href="index.html">
+        <img src="images/logo.png" alt="サスケのおうちロゴ">
+      </a>
+    </div>
+    <button class="hamburger" aria-label="メニューを開く">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="nav-menu">
+      <ul>
+        <li><a href="index.html">ホーム</a></li>
+        <li><a href="profile.html">プロフィール</a></li>
+        <li><a href="album.html">アルバム集</a></li>
+        <li><a href="friends.html">近所のお友達</a></li>
+        <li><a href="growth.html">成長記録</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="sasuke-navi">
+      <img src="images/home/navigator.png" alt="ナビゲーターサスケ" class="navi-img" />
+      <div class="speech">
+        <p>ようこそ、オイラのおうちへ！</p>
+        <p>ここにはオイラの思い出がたくさん詰まってるワン！</p>
+        <p>今日はどこから見ていくワン？</p>
+      </div>
+    </section>
+
+    <section class="link-grid">
+      <a class="link-thumb" href="profile.html">
+        <img src="images/home/profile-thumb.jpg" alt="プロフィール" />
+        <p>プロフィール</p>
+      </a>
+      <a class="link-thumb" href="album.html">
+        <img src="images/home/gallery-thumb.jpg" alt="アルバム集" />
+        <p>アルバム集</p>
+      </a>
+      <a class="link-thumb" href="friends.html">
+        <img src="images/home/friend-thumb.jpg" alt="近所のお友達" />
+        <p>近所のお友達</p>
+      </a>
+      <a class="link-thumb" href="growth.html">
+        <img src="images/home/growth-thumb.jpg" alt="成長記録" />
+        <p>成長記録</p>
+      </a>
+    </section>
+
+    <section class="pickup">
+      <div class="pickup-image">
+        <h2>ピックアップ画像</h2>
+        <div class="slider-container">
+          <div class="image-container">
+            <img src="images/home/slide1.jpg" alt="ピックアップ画像1">
+            <img src="images/home/slide2.jpg" alt="ピックアップ画像2">
+            <img src="images/home/slide3.jpg" alt="ピックアップ画像3">
+            <img src="images/home/slide4.jpg" alt="ピックアップ画像4">
+            <img src="images/home/slide5.jpg" alt="ピックアップ画像5">
+          </div>
+          <div class="nav-container"></div>
+        </div>
+      </div>
+      <div class="quote">
+        <h2>今日のサスケのひとこと</h2>
+        <p id="sasuke-quote"></p>
+        <p></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <p>サイトマップ</p>
+      <ul>
+        <li><a href="index.html">ホーム</a></li>
+        <li><a href="profile.html">プロフィール</a></li>
+        <li><a href="album.html">アルバム集</a></li>
+        <li><a href="friends.html">近所のお友達</a></li>
+        <li><a href="growth.html">成長記録</a></li>
+      </ul>
+    </div>
+    <div >
+      <a class="logo" href="index.html"><img src="images/logo-gray.png" alt="ロゴ"></a>
+      <p>〒888-XXXX</p>
+      <p>〇〇県XX市11−1−1</p>
+      <p>0000-00-XXXX</p>
+      <p class="copy">&copy; SASUKE</p>
+    </div>
+  </footer>
+
+  <button id="scrollTopBtn" class="scroll-top">↑</button>
+  <script src="js/script.js"></script>
+</body>
+</html>
