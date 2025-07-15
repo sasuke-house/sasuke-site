@@ -207,8 +207,8 @@ if (document.body.classList.contains('growth-page')) {
     { img: 'images/growth/10year.jpg', fullImg: 'images/growth/10year.jpg', desc: '指がふやけるまでペロペロするワン！' },
     { img: 'images/growth/11year.jpg', fullImg: 'images/growth/11year.jpg', desc: '日本犬には座布団が一番だワン！' },
     { img: 'images/growth/12year.jpg', fullImg: 'images/growth/12year.jpg', desc: '写真？それなら決め顔するワン（どや顔）' },
-    { img: 'images/growth/13year.jpg', fullImg: 'images/growth/13year.jpg', desc: '誕生日にチーズケーキ嬉しいワン！' },
-    { img: 'images/growth/14year.jpg', fullImg: 'images/growth/14year.jpg', desc: 'オイラももうおじいちゃんだワン・・・' }
+    { img: 'images/growth/13year.jpg', fullImg: 'images/growth/13year.jpg', desc: 'オイラももうおじいちゃんだワン・・・' },
+    { img: 'images/growth/14year.jpg', fullImg: 'images/growth/14year.jpg', desc: '誕生日にチーズケーキ嬉しいワン！' }
   ];
 
   const modal = document.getElementById('modal');
