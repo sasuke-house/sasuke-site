@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>サスケのおうち-プロフィール</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images/favicon.png" type="image/png">
+</head>
+
+<body class="profile-page">
+  <header>
+    <div class="logo">
+      <a href="index.html">
+        <img src="images/logo.png" alt="サスケのおうちロゴ">
+      </a>
+    </div>
+    <button class="hamburger" aria-label="メニューを開く">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="nav-menu">
+      <ul>
+        <li><a href="index.html">ホーム</a></li>
+        <li><a href="profile.html">プロフィール</a></li>
+        <li><a href="album.html">アルバム集</a></li>
+        <li><a href="friends.html">近所のお友達</a></li>
+        <li><a href="growth.html">成長記録</a></li>
+      </ul>      
+    </nav>
+  </header>
+
+  <main>
+    <section class="sasuke-navi">
+      <img src="images/home/navigator.png" alt="ナビゲーターサスケ" class="navi-img" />
+      <div class="speech">
+        <p>ここではオイラのプロフィールを紹介するワン！</p>
+        <p>クリックして見てみてね！</p>
+      </div>
+    </section>
+
+    <section class="thumb-grid">
+      <div class="thumb-img">
+        <img src="images/profile/name-thumb.jpg" alt="お名前サムネイル">
+        <p>お名前</p>
+      </div>
+      <div class="thumb-img">
+        <img src="images/profile/birthday-thumb.jpg" alt="生年月日サムネイル">
+        <p>生年月日</p>
+      </div>
+      <div class="thumb-img">
+        <img src="images/profile/food-thumb.jpg" alt="好きな食べ物サムネイル">
+        <p>好きな食べ物</p>
+      </div>
+      <div class="thumb-img">
+        <img src="images/profile/like-thumb.jpg" alt="好きなことサムネイル">
+        <p>好きなこと</p>
+      </div>
+      <div class="thumb-img">
+        <img src="images/profile/dislike-thumb.jpg" alt="嫌いなことサムネイル">
+        <p>嫌いなこと</p>
+      </div>
+      <div class="thumb-img">
+        <img src="images/profile/feature-thumb.jpg" alt="特徴サムネイル">
+        <p>特徴</p>
+      </div>
+    </section>
+
+  <div id="modal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modal-img" alt="">
+    <p id="modal-desc" class="modal-desc"></p>
+    <button id="prevBtn" class="modal-btn">←</button>
+    <button id="nextBtn" class="modal-btn">→</button>
+  </div>
+
+  </main>
+
+  <footer class="footer">
+    <div>
+      <p>サイトマップ</p>
+      <ul>
+        <li><a href="index.html">ホーム</a></li>
+        <li><a href="profile.html">プロフィール</a></li>
+        <li><a href="album.html">アルバム集</a></li>
+        <li><a href="friends.html">近所のお友達</a></li>
+        <li><a href="growth.html">成長記録</a></li>
+      </ul>
+    </div>
+    <div >
+      <a class="logo" href="index.html"><img src="images/logo-gray.png" alt="ロゴ"></a>
+      <p>〒888-XXXX</p>
+      <p>〇〇県XX市11−1−1</p>
+      <p>0000-00-XXXX</p>
+      <p class="copy">&copy; SASUKE</p>
+    </div>
+  </footer>
+  
+  <button id="scrollTopBtn" class="scroll-top">↑</button>
+  <script src="js/script.js"></script>
+</body>
+</html>
