@@ -626,7 +626,7 @@ img.image-active {
       justify-content: space-around;
       width: 30px;
       height: 24px;
-      background: none;
+      background-color: rgba(0, 0, 0, 0.6);
       border: none;
       cursor: pointer;
       position: fixed;
